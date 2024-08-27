@@ -44,7 +44,8 @@ ServerEvents.recipes(e => {
     Item.of('minecraft:coal').withChance(0.30),
     Item.of('create:raw_zinc').withChance(0.25),
     Item.of('minecraft:blaze_powder').withChance(0.10),
-    Item.of('minecraft:glowstone_dust').withChance(0.10)
+    Item.of('minecraft:glowstone_dust').withChance(0.10),
+    Item.of('minecraft:gunpowder').withChance(0.25)
     ], 'kubejs:void_core_shard')
 })
 
